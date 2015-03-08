@@ -3,7 +3,7 @@ Recurse through a directory structure and do stuff with every file!
 
 ---
 
-The callback accepts three parameters: the current file's filename, pathname, and [stats](https://nodejs.org/api/fs.html#fs_class_fs_stats) object.
+The callback accepts three parameters: the current file's name, relative path, and [stats](https://nodejs.org/api/fs.html#fs_class_fs_stats) object.
 
 ## Asynchronous
 
