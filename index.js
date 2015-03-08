@@ -16,7 +16,7 @@ function followAsync (start, fun) {
         var next = path.join(trail, breadcrumb);
         fs.stat(next, function(err, stats) {
           !err && stats.isDirectory() ?
-            async(next) : fun(breadcrumb, trail);
+            async(next) : fun(breadcrumb, trail, stats);
         });
       });
     });
@@ -29,8 +29,9 @@ function followSync (start, fun) {
   (function sync (trail) {
     fs.readdirSync(trail).forEach(function (breadcrumb) {
       var next = path.join(trail, breadcrumb);
-      fs.statSync(next).isDirectory() ?
-        sync(next) : found.push(next) && isfun && fun(breadcrumb, trail);
+      var stats = fs.statSync(next);
+      stats.isDirectory() ?
+        sync(next) : found.push(next) && isfun && fun(breadcrumb, trail, stats);
     });
   })(path.normalize(start));
   return found;
