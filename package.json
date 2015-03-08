@@ -1,5 +1,5 @@
 {
-  "name": "everyFile",
+  "name": "everyfile",
   "version": "1.0.0",
   "description": "Recurse through a directory structure and do stuff with every file!",
   "main": "index.js",
