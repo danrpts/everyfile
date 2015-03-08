@@ -1,0 +1,19 @@
+{
+  "name": "everyFile",
+  "version": "1.0.0",
+  "description": "Recurse through a directory structure and do stuff with every file!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danrpts/everyFile.git"
+  },
+  "author": "Dan Peterson <danrpts@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danrpts/everyFile/issues"
+  },
+  "homepage": "https://github.com/danrpts/everyFile"
+}
