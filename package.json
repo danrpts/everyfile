@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/danrpts/everyFile/issues"
   },
-  "homepage": "https://github.com/danrpts/everyFile"
+  "homepage": "https://github.com/danrpts/everyFile",
+  "keywords": [
+    "recursive",
+    "every",
+    "files",
+    "everyFile"
+  ]
 }
