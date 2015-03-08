@@ -18,7 +18,7 @@ every.async('.', function (filename, pathname) {
 var files = every.sync('.');
 console.log(files);
 ```
-or
+  or
 ```
 every.sync('.', function (filename, pathname) {
 
