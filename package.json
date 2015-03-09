@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danrpts/everyFile.git"
+    "url": "https://github.com/danrpts/everyfile.git"
   },
   "author": "Dan Peterson <danrpts@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danrpts/everyFile/issues"
+    "url": "https://github.com/danrpts/everyfile/issues"
   },
-  "homepage": "https://github.com/danrpts/everyFile",
+  "homepage": "https://github.com/danrpts/everyfile",
   "keywords": [
     "recursive",
     "every",
