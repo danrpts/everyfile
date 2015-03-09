@@ -12,7 +12,7 @@ var every = require('everyfile');
 
 every.async('.', function (filename, pathname) {
   
-  // do stuff...
+  // do stuff ...
   console.log('%s: %s/%s', "Async found", pathname, filename);
 
 });
