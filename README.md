@@ -34,3 +34,7 @@ every.sync('.', function (filename, pathname) {
 
 });
 ```
+
+---
+
+Feedback and pull requests are welcomed.
