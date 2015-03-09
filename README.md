@@ -8,6 +8,8 @@ The callback accepts three parameters: the current file's name, relative path, a
 ## Asynchronous
 
 ```
+var every = require('everyfile');
+
 every.async('.', function (filename, pathname) {
 
   console.log('%s: %s/%s', "Async found", pathname, filename);
