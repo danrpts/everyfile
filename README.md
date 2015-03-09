@@ -11,7 +11,8 @@ The callback accepts three parameters: the current file's name, relative path, a
 var every = require('everyfile');
 
 every.async('.', function (filename, pathname) {
-
+  
+  // do stuff...
   console.log('%s: %s/%s', "Async found", pathname, filename);
 
 });
@@ -27,7 +28,8 @@ console.log(files);
 or
 ```
 every.sync('.', function (filename, pathname) {
-
+  
+  // other stuff ...
   console.log('%s: %s/%s', "Sync found", pathname, filename);
 
 });
