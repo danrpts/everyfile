@@ -10,13 +10,14 @@ function forEachAsync (arr, fun) {
 }
 
 function followAsync (start, fun) {
+  var isfun = (typeof fun === "function");
   (function async (trail) {
     fs.readdir(trail, function (err, found) {
       !err && forEachAsync(found, function (breadcrumb) {
         var next = path.join(trail, breadcrumb);
         fs.stat(next, function(err, stats) {
           !err && stats.isDirectory() ?
-            async(next) : fun(breadcrumb, trail, stats);
+            async(next) : isfun && fun(breadcrumb, trail, stats);
         });
       });
     });

@@ -37,4 +37,4 @@ every.sync('.', function (filename, pathname, filestats) {
 
 ---
 
-Feedback and pull requests are welcomed.
+Feedback, tests and pull requests are welcomed.
