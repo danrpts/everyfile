@@ -2,7 +2,8 @@
 Recurse through a directory structure and do stuff with every file!
 
 ---
-
+Notice: I would use [node-glob](https://github.com/isaacs/node-glob) instead of this.
+---
 The callback is passed three arguments: the current file's name, relative path, and [stats](https://nodejs.org/api/fs.html#fs_class_fs_stats) object.
 
 ## Asynchronous
